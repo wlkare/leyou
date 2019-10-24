@@ -41,4 +41,5 @@ public class BrandController {
         this.brandService.saveBrand(brand, cids);
         return new ResponseEntity<>(HttpStatus.CREATED);
     }
+
 }
